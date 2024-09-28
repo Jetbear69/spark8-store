@@ -583,8 +583,17 @@ a {
 }
 
 @media (max-width: 991px) {
+    * {
+        margin: 5px;
+    }
+
     .menu label {
         display: initial;
+    }
+
+    .breadcrumb {
+        position: relative; 
+        z-index: 1;
     }
 
     .menu .navbar {
@@ -592,8 +601,9 @@ a {
         top: 100%;
         left: 0;
         right: 0;
-        background-color: #181818;
+        background-color: #000;
         display: none;
+        z-index: initial;
     }
 
     .menu .navbar ul li {
@@ -699,10 +709,108 @@ a {
         text-align: center;
     }
 
+    .icon-social {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .menu label {
+        display: initial;
+    }
+
+    .form-inline {
+        gap: 20px;
+    }
+
+    .newsletter-subscribe h2 {
+        text-align: center;
+        display: flex; 
+    }
+
+    .product-details {
+        flex-direction: column; 
+    }
+
+    .product-details .row {
+        flex-direction: column; 
+    }
+
+    .product-details img {
+        width: 100%;
+        height: auto; 
+    }
+
+    .product-details .col-md-6 {
+        flex: none; 
+        width: 100%; 
+    }
+
     .icon-social ul{
         display: flex;
         justify-content: space-evenly;
         text-align: center;
         max-width: 450px;
     }
+}
+
+@media (max-width: 450px) {
+    .menu label {
+        display: initial;
+    }
+    
+    .ofert-img {
+        display: none;
+    }
+
+        .icon-social ul{
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 425px) {
+    .p-4{
+        line-height: 1.5;
+    }
+
+    .icon-social ul{
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        max-width: 450px;
+    }
+    
+}
+
+@media (min-width: 375px) {
+    .ofert-1 {
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .blog-1 {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .newsletter-subscribe {
+        color: #ffffff;
+        font-family: "Oswald", sans-serif;
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .breadcrumb {
+        background-color: transparent;
+    }
+
+
+
 }
