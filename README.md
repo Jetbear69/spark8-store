@@ -1,5 +1,8 @@
 # Documentación del Proyecto Tienda Skater Spark8
 
+![head](https://github.com/user-attachments/assets/5fcbec42-c113-49b6-9ea0-a790f9ed24ff)
+
+
 ## Estructura del Proyecto
 
 El proyecto consiste en una página web para una tienda de artículos de skate llamada Spark8. La estructura principal se basa en un archivo HTML que contiene toda la estructura y contenido de la página.
@@ -69,3 +72,14 @@ El proyecto consiste en una página web para una tienda de artículos de skate l
 - Reflow Toolkit (para funcionalidades adicionales)
 
 Esta estructura y diseño permiten una experiencia de usuario intuitiva y atractiva, facilitando la navegación y la compra de productos en la tienda Spark8.
+
+## Capturas
+
+# Modo Escritorio
+
+![complete-website](https://github.com/user-attachments/assets/94909700-ee7a-4dda-ab95-f08b2cc7c1ef)
+
+# Modo Móvil
+
+![modo movil](https://github.com/user-attachments/assets/080dc488-d6a5-4f95-87c0-1dcfd5a20937)
+
